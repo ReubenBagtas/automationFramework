@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+name = "pypi"
+
+[requires]
+python_full_version = "3.5.2"
+
+[packages]
+selenium = '*'
+pytest = '*'
+pytest-parallel = '*'
+pytest-rerunfailures = '*'
+pylint = '*'
+
+[dev-packages]
+pylint = '*'
